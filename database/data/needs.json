@@ -1,14 +1,14 @@
 [
   {
     "character_id": 3,
-    "need": "diapers"
+    "item_id": 2
   },
   {
     "character_id": 4,
-    "need": "medicine"
+    "item_id": 3
   },
   {
     "character_id": 5,
-    "need": "pet food"
+    "item_id": 6
   }
 ]
