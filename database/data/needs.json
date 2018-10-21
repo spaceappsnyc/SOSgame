@@ -1,0 +1,14 @@
+[
+  {
+    "character_id": 3,
+    "need": "diapers"
+  },
+  {
+    "character_id": 4,
+    "need": "medicine"
+  },
+  {
+    "character_id": 5,
+    "need": "pet food"
+  }
+]
