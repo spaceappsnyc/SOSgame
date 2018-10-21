@@ -1,0 +1,22 @@
+[
+  {
+    "type": "Adult",
+    "carry": 25
+  },
+  {
+    "type": "Child",
+    "carry": 10
+  },
+  {
+    "type": "Infant",
+    "carry": 0
+  },
+  {
+    "type": "Senior",
+    "carry": 10
+  },
+  {
+    "type": "Pet",
+    "carry": 0
+  }
+]

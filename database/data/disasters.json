@@ -1,0 +1,26 @@
+[
+  {
+    "name": "tornado",
+    "low severity": "F0",
+    "medium severity": "F1",
+    "high severity": "F2 to F5"
+  },
+  {
+    "name": "wildfire",
+    "low severity": "surface fire",
+    "medium severity": "ground fire",
+    "high severity": "crown fire"
+  },
+  {
+    "name": "hurricane",
+    "low severity": "category 1",
+    "medium severity": "category 2",
+    "high severity": "category 3 to 5"
+  },
+  {
+    "name": "blizzard",
+    "low severity": "category 1 notable",
+    "medium severity": "category 2 significant",
+    "high severity": "category 3 to 5, major, cripping, or extreme"
+  }
+]
