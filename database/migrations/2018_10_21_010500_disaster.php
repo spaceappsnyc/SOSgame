@@ -19,6 +19,7 @@ class Disaster extends Migration
                   $table->string('low_severity');
                   $table->string('medium_severity');
                   $table->string('high_severity');
+                  //$table->string('location');
             });
       }
 

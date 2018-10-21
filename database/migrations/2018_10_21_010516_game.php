@@ -14,11 +14,12 @@ class Game extends Migration
       public function up()
       {
             Schema::create('games', function (Blueprint $table) {
-                  $table->string('id')->unique();
+                  $table->string('id')->primary();
                   $table->integer('disaster_id')->unsigned();
-                  $table->integer('emoji_id')->unsigned();
-                  $table->integer('character_disabled');
-                  $table->integer('proximity');
+                  $table->integer('disaster_proximity');
+
+                  $table->foreign('disaster_id')->references('id')->on('disasters');
+                  $table->timestamps();
             });
       }
 

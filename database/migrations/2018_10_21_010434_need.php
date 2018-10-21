@@ -15,8 +15,10 @@ class Need extends Migration
       {
             Schema::create('needs', function (Blueprint $table) {
                   $table->increments('id');
-                  $table->integer('character_id');
-                  $table->integer('item_id');
+                  $table->integer('character_id')->unsigned();
+                  $table->integer('item_id')->unsigned();
+                  $table->foreign('character_id')->references('id')->on('characters');
+                  $table->foreign('item_id')->references('id')->on('items');
             });
       }
 

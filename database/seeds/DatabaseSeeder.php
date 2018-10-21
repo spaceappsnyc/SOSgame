@@ -16,5 +16,7 @@ class DatabaseSeeder extends Seeder
         $this->call(disasters::class);
         $this->call(emojis::class);
         $this->call(needs::class);
+        $this->call(decisions::class);
+        $this->call(disaster_decision::class);
     }
 }

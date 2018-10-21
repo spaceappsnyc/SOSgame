@@ -17,6 +17,7 @@ class Emoji extends Migration
               $table->increments('id');
               $table->string('code');
               $table->integer('character_id')->unsigned();
+              $table->foreign('character_id')->references('id')->on('characters');
          });
   }
 

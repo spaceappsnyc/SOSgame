@@ -15,3 +15,7 @@ use Illuminate\Http\Request;
 
 Route::get('/game/start','GameController@start');
 Route::get('/item','ItemController@get');
+
+
+Route::get('/game/{id}','GameController@getGame');
+Route::post('/game/stay_leave','GameController@generateActions');
