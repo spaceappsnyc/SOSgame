@@ -1,24 +1,28 @@
 [
   {
     "name": "tornado",
+    "location": "Kansas City, Kansas",
     "low_severity": "F0",
     "medium_severity": "F1",
     "high_severity": "F2 to F5"
   },
   {
     "name": "wildfire",
+    "location": "Orange County, California",
     "low_severity": "surface fire",
     "medium_severity": "ground fire",
     "high_severity": "crown fire"
   },
   {
     "name": "hurricane",
+    "location": "Tampa, Florida",
     "low_severity": "category 1",
     "medium_severity": "category 2",
     "high_severity": "category 3 to 5"
   },
   {
     "name": "blizzard",
+    "location": "Buffalo, New York",
     "low_severity": "category 1 notable",
     "medium_severity": "category 2 significant",
     "high_severity": "category 3 to 5, major, cripping, or extreme"
