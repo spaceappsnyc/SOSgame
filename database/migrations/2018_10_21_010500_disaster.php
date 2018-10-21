@@ -16,8 +16,9 @@ class Disaster extends Migration
             Schema::create('disasters', function (Blueprint $table) {
                   $table->increments('id');
                   $table->string('name');
-                  $table->string('description');
-                  $table->integer('level');
+                  $table->string('low_severity');
+                  $table->string('medium_severity');
+                  $table->string('high_severity');
             });
       }
 

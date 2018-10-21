@@ -15,7 +15,8 @@ class Character extends Migration
       {
             Schema::create('characters', function (Blueprint $table) {
                   $table->increments('id');
-                  $table->integer('age');
+                  $table->string('type');
+                  $table->float('carry');
             });
       }
 
