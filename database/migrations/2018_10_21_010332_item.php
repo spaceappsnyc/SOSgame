@@ -19,7 +19,7 @@ class Item extends Migration
                   $table->string('description');
                   $table->string('emoji');
                   $table->integer('value');
-                  $table->integer('weight');
+                  $table->float('weight');
             });
       }
 
