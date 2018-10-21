@@ -15,12 +15,19 @@ class GameController extends Controller
       {
 
             $disaster = Disaster::find(rand(1,Disaster::count()));
-            $character = Character::find(rand(1,Character::count()));
 
-            $emoji = Emoji::where('character_id','=',$character->id)->get();
-            $emoji = $emoji[rand(0,count($emoji)-1)];
+            $characters = Character::get()->all();
+            shuffle($characters);
 
-            //return rand(0,10);
+            $characters = array_slice($characters, 0, rand(1,3));
+
+            foreach($characters as $c){
+                  $c->disabled = rand(0,1) == 0 ? 0 : 1;
+                  $emoji = Emoji::where('character_id','=',$c->id)->get();
+                  $emoji = $emoji[rand(0,count($emoji)-1)];
+                  $emoji->url = "https://raw.githubusercontent.com/EmojiTwo/emojitwo/master/svg/".$emoji->code.".svg";
+                  $c->emoji = clone $emoji;
+            }
 
             $game = new stdClass();
             $game->id = Uuid::generate()->string;
@@ -28,11 +35,9 @@ class GameController extends Controller
             $game->disaster = $disaster;
             $game->disaster->generated_level = rand(1,3);
 
-            $game->character = $character;
-            $game->character->disabled = rand(0,1) == 0 ? 0 : 1;
-            $game->emoji = $emoji;
-            $game->emoji->url = "https://raw.githubusercontent.com/EmojiTwo/emojitwo/master/svg/".$emoji->code.".svg";
+            $game->characters = $characters;
 
-            return json_decode( json_encode($game), true);
+            return json_decode(json_encode($game), true);
+
       }
 }
