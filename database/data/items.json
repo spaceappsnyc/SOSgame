@@ -1,0 +1,324 @@
+[
+  {
+    "name": "favorite toys / children's books",
+    "description": "You know, for the kids",
+    "emoji": "1f3a0",
+    "value": 0,
+    "weight": 0.5
+  },
+  {
+    "name": "diapers",
+    "description": "Pamper the skin they're in",
+    "emoji": "1f476-1f3fb",
+    "value": 0,
+    "weight": 1
+  },
+  {
+    "name": "medication",
+    "description": "All the pills",
+    "emoji": "1f48a",
+    "value": 0,
+    "weight": 0
+  },
+  {
+    "name": "drinking water",
+    "description": "Every Sip Counts",
+    "emoji": "26c9",
+    "value": 0,
+    "weight": 8
+  },
+  {
+    "name": "canned food",
+    "description": "Non-perishable",
+    "emoji": "1f37d",
+    "value": 0,
+    "weight": 3
+  },
+  {
+    "name": "pet food",
+    "description": "For Rex or Mittens",
+    "emoji": "1f63e",
+    "value": 0,
+    "weight": 2
+  },
+  {
+    "name": "fire extinguisher",
+    "description": "Always handy",
+    "emoji": "1f525",
+    "value": 0,
+    "weight": 2
+  },
+  {
+    "name": "N95 respirator masks",
+    "description": "Breathe easy",
+    "emoji": "1f637",
+    "value": 0,
+    "weight": 0.5
+  },
+  {
+    "name": "sleeping bags",
+    "description": "For sleeping away from home",
+    "emoji": "1f4a4",
+    "value": 0,
+    "weight": 1
+  },
+  {
+    "name": "newspapers",
+    "description": "All the news that's fit to print",
+    "emoji": "1f4f0",
+    "value": 0,
+    "weight": 0.5
+  },
+  {
+    "name": "extra clothes",
+    "description": "In case you're away for a few days",
+    "emoji": "1f455",
+    "value": -1,
+    "weight": 3
+  },
+  {
+    "name": "blanket",
+    "description": "They have you covered",
+    "emoji": "1f6cf",
+    "value": 0,
+    "weight": 0.1
+  },
+  {
+    "name": "can opener",
+    "description": "For opening cans",
+    "emoji": "1f529",
+    "value": 1,
+    "weight": 0.1
+  },
+  {
+    "name": "first-aid kit",
+    "description": "For cuts and bruises",
+    "emoji": "1f3f4-e0067-e0062-0065-006e-e0067-e007f",
+    "value": 1,
+    "weight": 0.5
+  },
+  {
+    "name": "flashlight",
+    "description": "In case the lights go out",
+    "emoji": "1f526",
+    "value": 1,
+    "weight": 0.5
+  },
+  {
+    "name": "battery-operated AM/FM radio, or a wind-up radio",
+    "description": "For news updates",
+    "emoji": "1f4fb",
+    "value": 1,
+    "weight": 1
+  },
+  {
+    "name": "extra batteries",
+    "description": "For flashlight / radio etc",
+    "emoji": "1f50b",
+    "value": 1,
+    "weight": 0.1
+  },
+  {
+    "name": "glow sticks",
+    "description": "Time to glow",
+    "emoji": "1f526",
+    "value": 1,
+    "weight": 0.1
+  },
+  {
+    "name": "whistle or bell",
+    "description": "To alert others",
+    "emoji": "if56d",
+    "value": 1,
+    "weight": 0.1
+  },
+  {
+    "name": "one quart of unscented bleach",
+    "description": "For water purification",
+    "emoji": "1f6e2",
+    "value": 1,
+    "weight": 1
+  },
+  {
+    "name": "eyedropper",
+    "description": "For adding bleach to water",
+    "emoji": "1f441",
+    "value": 1,
+    "weight": 0.1
+  },
+  {
+    "name": "fresh food",
+    "description": "Perishable",
+    "emoji": "1f33d",
+    "value": -1,
+    "weight": 3
+  },
+  {
+    "name": "important documents",
+    "description": "Identification, prescriptions, and such",
+    "emoji": "1f530",
+    "value": 0,
+    "weight": 0.1
+  },
+  {
+    "name": "extra car and house keys",
+    "description": "Just in case",
+    "emoji": "1f511",
+    "value": 0,
+    "weight": 0.1
+  },
+  {
+    "name": "cash in small bills",
+    "description": "At least $250",
+    "emoji": "1f4b5",
+    "value": 0,
+    "weight": 0.1
+  },
+  {
+    "name": "notepad and pen",
+    "description": "For jotting down info",
+    "emoji": "1f4dd",
+    "value": 0,
+    "weight": 0.1
+  },
+  {
+    "name": "portable cell phone chargers",
+    "description": "Always need one",
+    "emoji": "1f50b",
+    "value": 0,
+    "weight": 0.1
+  },
+  {
+    "name": "alcohol",
+    "description": "It's Miller Time",
+    "emoji": "1f37b",
+    "value": -1,
+    "weight": 1
+  },
+  {
+    "name": "raingear",
+    "description": "Stay Dry",
+    "emoji": "1f302",
+    "value": 0,
+    "weight": 0.5
+  },
+  {
+    "name": "tobacco",
+    "description": "Smoke 'em if you got 'em",
+    "emoji": "1f6ac",
+    "value": -1,
+    "weight": 0.1
+  },
+  {
+    "name": "large tent",
+    "description": "Home away from home",
+    "emoji": "26fa",
+    "value": -1,
+    "weight": 10
+  },
+  {
+    "name": "tarp",
+    "description": "Blue, plastic, 10,000 uses",
+    "emoji": "1f3d5",
+    "value": 0,
+    "weight": 3
+  },
+  {
+    "name": "tablet",
+    "description": "It's always a good time for tetris",
+    "emoji": "1f4f1",
+    "value": -1,
+    "weight": 1
+  },
+  {
+    "name": "laptop",
+    "description": "Stay on-line",
+    "emoji": "1f4bb",
+    "value": -1,
+    "weight": 3
+  },
+  {
+    "name": "DVD player",
+    "description": "To watch disaster movies for tips and hints",
+    "emoji": "1f4bf",
+    "value": -1,
+    "weight": 3
+  },
+  {
+    "name": "spare glasses",
+    "description": "A second (or third) set of eyes",
+    "emoji": "1f453",
+    "value": 0,
+    "weight": 0.1
+  },
+  {
+    "name": "candles",
+    "description": "For lighting the way",
+    "emoji": "1f56f",
+    "value": 0,
+    "weight": 0.5
+  },
+  {
+    "name": "local map",
+    "description": "Know your way around",
+    "emoji": "1f5fa",
+    "value": 0,
+    "weight": 0.1
+  },
+  {
+    "name": "copies of credit and ATM cards",
+    "description": "Don't leave home without it?",
+    "emoji": "1f4b3",
+    "value": 0,
+    "weight": 0.1
+  },
+  {
+    "name": "knife",
+    "description": "For cutting",
+    "emoji": "1f52a",
+    "value": 0,
+    "weight": 0.5
+  },
+  {
+    "name": "flare gun",
+    "description": "Attention getter",
+    "emoji": "1f4a5",
+    "value": 0,
+    "weight": 0.5
+  },
+  {
+    "name": "trash bags",
+    "description": "Keep wet things dry",
+    "emoji": "1f5d1",
+    "value": 0,
+    "weight": 0.5
+  },
+  {
+    "name": "waterproof matches",
+    "description": "Close cover before striking",
+    "emoji": "1f525",
+    "value": 0,
+    "weight": 0.1
+  },
+  {
+    "name": "personal hygiene items",
+    "description": "Razor, soap, shampoo",
+    "emoji": "1f6bf",
+    "value": 0,
+    "weight": 0.1
+  },
+  {
+    "name": "gun",
+    "description": "Ima gonna finish it",
+    "emoji": "1f52b",
+    "value": -1,
+    "weight": 0.5
+  },
+  {
+    "name": "jewlery",
+    "description": "Put a ring on it",
+    "emoji": "1f4ad",
+    "value": 0,
+    "weight": 0.1
+  }
+]
