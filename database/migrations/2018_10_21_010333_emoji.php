@@ -15,8 +15,8 @@ class Emoji extends Migration
     {
           Schema::create('emojis', function (Blueprint $table) {
               $table->increments('id');
-              $table->string('name')->unique();
-              $table->string('link');
+              $table->string('code');
+              $table->integer('character_id')->unsigned();
          });
   }
 
